@@ -35,8 +35,9 @@ Each section includes collapsible dropdowns showing the corresponding chart(s).
 
 <img width="989" height="360" alt="Distribution of Glucose" src="https://github.com/user-attachments/assets/e050e1ce-15d7-4051-9799-7b2b147561c3" />
 
-
 </details>
+
+---
 
 <details>
 <summary><strong>💓 Blood Pressure Distribution</strong></summary>
@@ -54,6 +55,8 @@ While the majority fall in normal ranges, the dataset contains questionable zero
 
 </details>
 
+---
+
 <details>
 <summary><strong>⚖️ BMI Distribution</strong></summary>
 
@@ -70,6 +73,8 @@ While the majority fall in normal ranges, the dataset contains questionable zero
 <img width="1101" height="360" alt="Distribution of BMI" src="https://github.com/user-attachments/assets/d05674ff-2f17-4c47-850b-2ef89cceb8e9" />
 
 </details>
+
+---
 
 <details>
 <summary><strong>🧪 Insulin Distribution</strong></summary>
