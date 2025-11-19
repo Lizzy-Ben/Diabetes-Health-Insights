@@ -8,7 +8,7 @@
 - Explore correlation structure among all health variables.
 - Evaluate how genetic risk influences diabetes outcomes.
 ## Dataset Source
-- Pima Indians Diabetes Dataset available publicly on Kaggle.[Download_here](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
+- Pima Indians Diabetes Dataset available publicly on Kaggle. [Download_here](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
 ## Tools Used
 - Python
 ## Exploratory Data Analysis (EDA)
