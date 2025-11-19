@@ -14,10 +14,10 @@
 ## Exploratory Data Analysis (EDA)
 Below are the 7 key analysis questions addressed in this project.  
 Each section includes collapsible dropdowns showing the corresponding chart(s).
-1. How are key health markers distributed?
+1. **How are key health markers distributed?**
 - To understand the general health patterns in the Pima Indians Diabetes dataset, we explored the distribution of four important clinical markers: **Glucose, Blood Pressure, BMI and Insulin.** These variables play major roles in assessing metabolic health and identifying diabetes risk.
 <details>
-<summary><strong>📊 Distribution of Key Health Markers</strong></summary>
+<summary><strong> Distribution of Key Health Markers</strong></summary>
 <br>
   
 <details>
@@ -96,3 +96,60 @@ While the majority fall in normal ranges, the dataset contains questionable zero
 ---
 
 </details>
+
+2. **How do these markers differ between diabetic and non-diabetic individuals? (Outcome)**
+
+<details>
+<summary><strong>Distribution by Diabetes Outcomes</strong></summary>
+<br>
+  
+<details>
+  
+<summary><strong>🩸 Glucose Distribution by Outcomes</strong></summary>
+<br>
+
+<img width="1103" height="360" alt="Glucose Dist  by Outcome" src="https://github.com/user-attachments/assets/794871a6-0290-4937-939b-9b9f43a2f50e" />
+
+</details>
+
+---
+
+<details>
+<summary><strong>💓 Blood Pressure Distribution by Outcomes</strong></summary>
+<br>
+
+<img width="1103" height="360" alt="BloodPressure Dist  by Outcomes" src="https://github.com/user-attachments/assets/04952e23-4553-449f-99f7-7336e79e5caa" />
+
+</details>
+
+---
+
+<details>
+<summary><strong>⚖️ BMI Distribution by Outcomes</strong></summary>
+
+<br>
+
+<img width="1103" height="360" alt="BMI Dist  by Outcomes" src="https://github.com/user-attachments/assets/520339fd-3d99-404e-832a-c5f39cd8ab6b" />
+
+</details>
+
+---
+
+<details>
+<summary><strong>🧪 Insulin Distribution</strong></summary>
+
+<br>
+
+<img width="1103" height="360" alt="Insulin Dist  by Outcome" src="https://github.com/user-attachments/assets/c45de211-e5c4-488c-88ea-702a40445c6d" />
+
+</details>
+
+---
+
+</details>
+
+3. **Relationship between BMI & glucose levels between diabetic and non-diabetic individuals(outcomes)**
+
+<img width="1103" height="360" alt="Relationship btw BMI   Glucose" src="https://github.com/user-attachments/assets/ab503489-54f0-4750-b58e-bc922e62e651" />
+
+4. **How does age affect glucose and BMI levels between diabetes outcomes**
