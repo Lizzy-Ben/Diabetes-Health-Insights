@@ -14,7 +14,7 @@
 ## Exploratory Data Analysis (EDA)
 Below are the 7 key analysis questions addressed in this project.  
 Each section includes collapsible dropdowns showing the corresponding chart(s).
-1. **How are key health markers distributed?**
+1. ###**How are key health markers distributed?**
 To understand the general health patterns in the Pima Indians Diabetes dataset, we explored the distribution of four important clinical markers: **Glucose, Blood Pressure, BMI and Insulin.** These variables play major roles in assessing metabolic health and identifying diabetes risk.
 <details>
 <summary><strong> Distribution of Key Health Markers</strong></summary>
@@ -97,7 +97,7 @@ While the majority fall in normal ranges, the dataset contains questionable zero
 
 </details>
 
-2. **How do these markers differ between diabetic and non-diabetic individuals? (Outcome)**
+2. ###**How do these markers differ between diabetic and non-diabetic individuals? (Outcome)**
 
 <details>
 <summary><strong>Distribution by Diabetes Outcomes</strong></summary>
@@ -148,8 +148,8 @@ While the majority fall in normal ranges, the dataset contains questionable zero
 
 </details>
 
-3. **Relationship between BMI & glucose levels between diabetic and non-diabetic individuals(outcomes)**
+3. ###**Relationship between BMI & glucose levels between diabetic and non-diabetic individuals(outcomes)**
 
 <img width="1103" height="360" alt="Relationship btw BMI   Glucose" src="https://github.com/user-attachments/assets/ab503489-54f0-4750-b58e-bc922e62e651" />
 
-4. **How does age affect glucose and BMI levels between diabetes outcomes**
+4. ###**How does age affect glucose and BMI levels between diabetes outcomes**
