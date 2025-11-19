@@ -15,7 +15,7 @@
 Below are the 7 key analysis questions addressed in this project.  
 Each section includes collapsible dropdowns showing the corresponding chart(s).
 1. **How are key health markers distributed?**
-- To understand the general health patterns in the Pima Indians Diabetes dataset, we explored the distribution of four important clinical markers: **Glucose, Blood Pressure, BMI and Insulin.** These variables play major roles in assessing metabolic health and identifying diabetes risk.
+To understand the general health patterns in the Pima Indians Diabetes dataset, we explored the distribution of four important clinical markers: **Glucose, Blood Pressure, BMI and Insulin.** These variables play major roles in assessing metabolic health and identifying diabetes risk.
 <details>
 <summary><strong> Distribution of Key Health Markers</strong></summary>
 <br>
