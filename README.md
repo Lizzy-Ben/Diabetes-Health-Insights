@@ -33,6 +33,9 @@
 - Correlation patterns help identify linked features and independent risk factors, guiding future modeling and analysis.  
 - Overall, diabetes outcomes are shaped by a **combination of metabolic, genetic, and demographic factors**, reinforcing the importance of a multifactorial approach to risk assessment and prevention.
 
+### Detailed EDA
+For the **full exploratory data analysis**, including all charts and insights, see [EDA Details](EDA.md)
+
 
 
 
