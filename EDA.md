@@ -12,34 +12,26 @@ To understand the general health patterns in the Pima Indians Diabetes dataset, 
 - Most individuals fall between 80 and 140 mg/dL, which is typical for fasting glucose.
 - A few extreme values above 180 mg/dL indicate possible undiagnosed diabetes or poor glycemic control.
 - The presence of zeros suggests missing or unrecorded glucose measurements.
-
 **Insight:**
 - Glucose levels vary widely across the population, with a notable portion showing elevated values linked to higher diabetes risk.
-
 #### Blood Pressure
 - Blood pressure (Diastolic) is moderately right-skewed.
 - Most values cluster between 60 and 90 mmHg, which is within normal to slightly elevated range.
-- Several zero or near-zero values reflect missing or invalid clinical measurements.
 - Outliers above 100 mmHg indicate potential hypertension.
-
 **Insight:**
-While the majority fall in normal ranges, the dataset contains questionable zero readings and a small number of hypertensive cases.
-
+While the majority fall in normal ranges, the dataset contains a small number of hypertensive cases.
 ### BMI
 - BMI is fairly normally distributed, with a slight right skew.
 - Most individuals have a BMI between 25 and 35, representing overweight to obese categories.
 - Outliers above 50 indicate severe obesity.
 - The distribution highlights high obesity prevalence in this population.
-
 **Insight:**
 - BMI trends show that excess body weight is common, reinforcing its role as a major diabetes risk factor.
-
 ### Insulin
 - Insulin has the heaviest right skew among all variables.
 - A large concentration of values lies below 100 µU/mL.
 - Many individuals have insulin = 0, indicating missing or uncollected laboratory data.
 - Extreme outliers range from 200 to 800+ µU/mL, which is far beyond typical clinical ranges.
-
 **Insight:**
 - Insulin values require careful preprocessing due to extreme skewness and biologically improbable outliers.
 
@@ -59,26 +51,21 @@ While the majority fall in normal ranges, the dataset contains questionable zero
 
 ### 2. **How do these markers differ between diabetic and non-diabetic individuals? (Outcome)**
 The aim of this analysis is to gain insights into the characteristics of diabetic and non-diabetic individuals by comparing their health markers, ultimately informing strategies for diabetes risk assessment, prevention, and management.
-
 <details>
   <summary>Outcome-Based Health Marker Comparison"</summary>
 
 #### Glucose
 **Insight:** 
 - Diabetic individuals show a substantially higher glucose distribution compared to non-diabetics — with a right-skewed histogram, a higher median in the box plot, and more high‑glucose outliers.
-  
 #### Blood Pressure
 **Insight:** 
 - Blood pressure tends to be elevated in diabetic individuals compared to non-diabetics, with a broader distribution and higher median, reflecting how hypertension often coexists with diabetes.
-
 #### BMI
 **Insight:** 
 - BMI is generally higher in the diabetic population, with a right-skewed distribution indicating more individuals in overweight or obese ranges. The higher median and greater IQR suggest BMI is a key risk factor.
-
 #### Insulin 
 **Insight:** 
 - Insulin levels in diabetics tend to be higher and more variable, suggesting compensatory hyperinsulinemia in response to insulin resistance.
-
 </details>
 
 <details>
@@ -95,16 +82,13 @@ The aim of this analysis is to gain insights into the characteristics of diabeti
 
 ### 3. **Relationship between BMI & glucose levels between diabetic and non-diabetic individuals(outcomes)**
 The aim of this analysis is to examine how **BMI correlates with glucose levels** differently for diabetic vs non‑diabetic individuals, shedding light on potential risk patterns and metabolic differences.
-
 <details>
 <summary>Insights</summary>
-
 - There is a **positive relationship** between BMI and glucose levels overall.
 - **Non-diabetic individuals** show a mild upward trend: glucose increases gradually with BMI, suggesting early metabolic strain but generally stable glucose levels.
 - **Diabetic individuals** exhibit a much **steeper increase** in glucose with rising BMI, with higher glucose values at almost all BMI levels.
 - Diabetics also show **greater variability**, and some maintain high glucose even at lower BMI values, indicating metabolic heterogeneity (e.g., lean diabetes).
 - These patterns support the role of **insulin resistance**: as BMI increases, insulin sensitivity decreases, raising glucose—an effect that appears stronger in diabetics.
-
 </details>
 
 <details>
@@ -117,7 +101,6 @@ The aim of this analysis is to examine how **BMI correlates with glucose levels*
 
 ### 4. **How does age affect glucose and BMI levels between diabetes outcomes**
 The aim of this analysis is to investigate how age influences glucose and BMI levels in individuals with different diabetes outcomes (diabetic vs non-diabetic), exploring potential interactions between age and diabetes status on these health markers. 
-
 <details>
 <summary><strong>Click to expand insights</strong></summary>
 
@@ -125,24 +108,19 @@ The aim of this analysis is to investigate how age influences glucose and BMI le
 - Glucose levels are **consistently higher** in diabetic individuals across all ages.
 - As age increases, diabetics show a **more noticeable upward trend** in glucose, indicating reduced glucose tolerance over time.
 - Non-diabetic individuals maintain **lower and more stable glucose levels**, with only slight increases in older ages.
-
 **Insight:**  
 Age amplifies glucose differences between diabetic and non-diabetic individuals.
-
 #### 🔹 Age vs BMI
 - Diabetic individuals generally show **higher BMI** across nearly all age groups.
 - BMI tends to **increase through early and middle adulthood**, especially among diabetics.
 - In older ages, BMI may level off or slightly decline due to muscle loss, but diabetics still remain higher overall.
 - Non-diabetics show **less aggressive changes** in BMI with age.
-
 **Insight:**  
 BMI increases with age for both groups, but diabetics maintain noticeably higher values.
-
 #### 🔹 Overall Pattern
 - Age magnifies metabolic differences between diabetic and non-diabetic groups.
 - Both glucose and BMI show **steeper age-related changes** in diabetic individuals.
 - Older diabetic individuals exhibit the **highest glucose and BMI values**, reflecting greater metabolic risk.
-
 **Conclusion:**  
 Age is a key factor influencing metabolic health, with diabetic individuals showing stronger upward trends in glucose and BMI as they age.
 
