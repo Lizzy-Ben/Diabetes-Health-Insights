@@ -24,69 +24,67 @@ Each section includes collapsible dropdowns showing the corresponding chart(s).
   
 <summary><strong>🩸 Glucose Distribution</strong></summary>
 <br>
-(<img width="989" height="360" alt="Distribution of Glucose" src="https://github.com/user-attachments/assets/e050e1ce-15d7-4051-9799-7b2b147561c3" />)
 
-**Glucose Distribution**
 - Glucose values show a right-skewed distribution.
 - Most individuals fall between 80 and 140 mg/dL, which is typical for fasting glucose.
 - A few extreme values above 180 mg/dL indicate possible undiagnosed diabetes or poor glycemic control.
 - The presence of zeros suggests missing or unrecorded glucose measurements.
 
-***Insight:***
+**Insight:**
 - Glucose levels vary widely across the population, with a notable portion showing elevated values linked to higher diabetes risk.
 
-</details>
+<img width="989" height="360" alt="Distribution of Glucose" src="https://github.com/user-attachments/assets/e050e1ce-15d7-4051-9799-7b2b147561c3" />
 
----
+
+</details>
 
 <details>
 <summary><strong>💓 Blood Pressure Distribution</strong></summary>
-
 <br>
 
-**Image Placeholder:**  
-![Blood Pressure Distribution](images/bloodpressure_distribution.png)
+- Blood pressure (Diastolic) is moderately right-skewed.
+- Most values cluster between 60 and 90 mmHg, which is within normal to slightly elevated range.
+- Several zero or near-zero values reflect missing or invalid clinical measurements.
+- Outliers above 100 mmHg indicate potential hypertension.
 
-**Insights:**  
-- Moderately right-skewed  
-- Most readings range from 60–90 mmHg  
-- Zeros/unrealistically low values indicate missing data  
-- Some values >100 mmHg suggest possible hypertension  
+**Insight:**
+While the majority fall in normal ranges, the dataset contains questionable zero readings and a small number of hypertensive cases.
+
+<img width="1101" height="360" alt="Distribution of Blood Pressure" src="https://github.com/user-attachments/assets/f83dea99-5376-4bca-971d-6d2fa5fa00f9" />
 
 </details>
-
----
 
 <details>
 <summary><strong>⚖️ BMI Distribution</strong></summary>
 
 <br>
 
-**Image Placeholder:**  
-![BMI Distribution](images/bmi_distribution.png)
+- BMI is fairly normally distributed, with a slight right skew.
+- Most individuals have a BMI between 25 and 35, representing overweight to obese categories.
+- Outliers above 50 indicate severe obesity.
+- The distribution highlights high obesity prevalence in this population.
 
-**Insights:**  
-- Roughly normal distribution with slight right skew  
-- Most values fall between 25–35 → overweight/obese  
-- Outliers above 50 indicate severe obesity  
+**Insight:**
+- BMI trends show that excess body weight is common, reinforcing its role as a major diabetes risk factor.
+
+<img width="1101" height="360" alt="Distribution of BMI" src="https://github.com/user-attachments/assets/d05674ff-2f17-4c47-850b-2ef89cceb8e9" />
 
 </details>
-
----
 
 <details>
 <summary><strong>🧪 Insulin Distribution</strong></summary>
 
 <br>
 
-**Image Placeholder:**  
-![Insulin Distribution](images/insulin_distribution.png)
+- Insulin has the heaviest right skew among all variables.
+- A large concentration of values lies below 100 µU/mL.
+- Many individuals have insulin = 0, indicating missing or uncollected laboratory data.
+- Extreme outliers range from 200 to 800+ µU/mL, which is far beyond typical clinical ranges.
 
-**Insights:**  
-- Extremely right-skewed  
-- Many values below 100 µU/mL  
-- Numerous zeros suggest missing or unrecorded insulin tests  
-- Several extreme outliers (300–800+)  
+**Insight:**
+- Insulin values require careful preprocessing due to extreme skewness, numerous missing values, and biologically improbable outliers.
+
+<img width="1101" height="360" alt="Distribution of Insulin" src="https://github.com/user-attachments/assets/c48d8e2e-0484-45df-bdd9-2573cd7bb173" />
 
 </details>
 
